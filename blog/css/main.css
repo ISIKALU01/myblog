@@ -257,8 +257,8 @@ header .navbar .toggle-button {
   transform: scale(1.1);
 }
 
-.slider {
-  padding: 2rem 0rem;
+.swiper-container{
+  overflow-x: hidden;
 }
 
 /*MAIN SECTION*/
@@ -383,6 +383,8 @@ header .navbar .toggle-button {
     width: calc(100% - 20px);
   }
 }
+
+  
 
 :root {
   --light:#f8f9fa;

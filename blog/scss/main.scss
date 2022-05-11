@@ -329,6 +329,9 @@ header{
     
 }
 @media screen and (max-width:574px){
+    body{
+        overflow-x: hidden;
+    }
     header{
         .navbar{
             .toggle-button{
@@ -359,6 +362,12 @@ header{
                 width:calc(100% - 20px);
             }
         }
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:500px){
+    body{
+        overflow-x: hidden;
     }
 }
 
